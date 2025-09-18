@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+body, html{
+    font-family: 'Inconsolata', sans-serif;
+    scrollbar-width: none;
+}
+
+.source-serif{
+    font-family: "Source Serif 4", serif !important;
+}
+
+h1{
+    text-shadow: 0px 0px 103px rgba(255,255,255,1);
+
+}
