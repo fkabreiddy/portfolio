@@ -1,4 +1,3 @@
-import { Link } from "@heroui/link";
 import { useTheme } from "@heroui/use-theme";
 import { useEffect } from "react";
 

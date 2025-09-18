@@ -1,4 +1,3 @@
-import { once } from "events";
 import { motion } from "motion/react";
 import Skills from "./skills";
 import Projects from "./projects";

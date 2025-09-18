@@ -1,12 +1,11 @@
 import Presentation from "@/components/presentation";
-import Skills from "@/components/skills";
 import { useTheme } from "@heroui/use-theme";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function IndexPage() {
 
-  const {theme, setTheme} = useTheme()
-  const [newCommand, setNewCommand] = useState("");
+  const {setTheme} = useTheme()
+ 
 
   useEffect(()=>{
 
