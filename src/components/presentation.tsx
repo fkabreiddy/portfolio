@@ -27,7 +27,7 @@ export default function Presentation() {
 
 const Orbit = () => {
   return (
-    <div className="  absolute h-screen w-screen flex justify-center top-[-400px]">
+    <div className="  absolute max-md:fixed h-screen w-screen flex justify-center top-[-400px]">
       <motion.div className="bg-gradient-to-t from-neutral-950/20 to-red-950/20 rounded-full  flex items-center p-2  relative justify-center   w-[700px]  h-[700px]">
         {Array.from({ length: 20 }).map((_, i) => (
           <motion.div
@@ -78,7 +78,7 @@ const ContactInformation = () => {
       >
         mail me
       </a>{" "}
-      see my work at   {" "}
+      or see my work at   {" "}
         <a   
         className="underline text-blue-700"
         href="https://github.com/fkabreiddy">

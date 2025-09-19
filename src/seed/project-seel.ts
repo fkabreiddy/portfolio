@@ -22,7 +22,7 @@ export const projects : Project[] = [
         personalProject: true,
         onDevelopment: false,
         tags: ["Blazor", ".Net", "Asp.Net", "C#"],
-        description: "A music review platform similar to Pitchfork. Role-based, where users and staff members can review albums and singles from various artists.",
+        description: "A music review platform similar to Pitchfork. in Metamusic users and staff members can review albums and singles from various artists.",
         link: "https://github.com/fkabreiddy/MetaMusic",
         date: new Date("2024-01-01"),
         attachedFiles: [
@@ -38,7 +38,7 @@ export const projects : Project[] = [
          personalProject: false,
         onDevelopment: false,
         tags: ["Blazor", ".Net", "Asp.Net", "C#"],
-        description: "A university platform where teachers can upload resources such as links or documents organized by subject, degree, and faculty. Students can download these resources.",
+        description: "A plataform where teachers can upload resources such as links or documents organized by subject, degree, and faculty. Students can download these resources.",
         link: null,
         date: new Date("2024-02-01"),
         attachedFiles: [
@@ -56,7 +56,7 @@ export const projects : Project[] = [
          personalProject: true,
         onDevelopment: true,
         tags: [".Net", "Asp.Net", "C#", "React"],
-        description: "A real time chat app on similar to Discord using .net Signal R. Create channels and chat with people on real time.",
+        description: "A real time chat app on similar to Discord using .Net Signal R. Create channels and chat with people on real time.",
         link: "https://github.com/fkabreiddy/Serpentine",
         date: new Date("2025-03-01"),
         attachedFiles: [
